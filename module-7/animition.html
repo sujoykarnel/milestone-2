@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animition</title>
+    <style>
+        @keyframes slider {
+
+            0% {
+                background-color: red;
+                left: 0;
+                top: 0;
+            }
+
+            50% {
+                background-color: blue;
+                top: 300px;
+            }
+
+            100% {
+                background-color: red;
+                left: 700px;
+                top: 0;
+            }
+
+        }
+
+        .stage {
+            height: 400px;
+            width: 800px;
+            background-color: chartreuse;
+            border: 2px solid;
+        }
+
+        .ball {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            animation: slider 2s ease-in-out 1s infinite alternate;
+            animation-play-state: running;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animition Explore</h1>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>
