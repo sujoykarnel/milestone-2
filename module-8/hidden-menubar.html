@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Menubar</title>
+    <script src="https://kit.fontawesome.com/2f926a27a3.js" crossorigin="anonymous"></script>
+    <style>
+        .menu-bar {
+            width: 30px;
+        }
+
+        .menu-button {
+            font-size: 2em;
+            width: 30px;
+        }
+
+        .menu-bar:hover ul {
+            display: block;
+        }
+
+        .sub-menu ul {
+            width: 200px;
+            list-style: none;
+            background-color: brown;
+            border-bottom: 1px solid lightgray;
+            padding: 5px;
+            margin-left: 0;
+            tab-size: 2em;
+            margin: 0;
+            position: absolute;
+            display: none;
+
+
+        }
+
+        .sub-menu ul li {
+            border-bottom: 1px solid lightgray;
+            color: white;
+            font-weight: 700;
+        }
+
+        .sub-menu ul li a {
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-bar">
+        <div class="menu-button">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="sub-menu">
+            <ul>
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Product</li>
+                <li><a href="#"></a>Service</li>
+                <li><a href="#"></a>Contact</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
