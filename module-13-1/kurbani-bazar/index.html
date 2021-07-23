@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KURBANI BAZAR | BOOTSTRAP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="sticky-top">
+    <!-- nav section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="rounded-3" src="images/kurbani-logo.png" alt="" width="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">হোম</a>
+            <a class="nav-link" href="#cow-bazar">গরু</a>
+            <a class="nav-link" href="#goat-bazar">খাসি</a>
+            <a class="nav-link" href="#sheep-bazar">ভেড়া</a>
+            <a class="nav-link" href="#masala-bazar">মশলা</a>
+            <a class="nav-link" href="#subscribe">সাবস্ক্রাইব</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- carousel & category section-->
+  <section class="container kb-bg-color p-4 my-5 rounded-3">
+    <!-- carousel section-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-5 col-lg-5">
+              <h1>মোগলাই গরু</h1>
+              <p>সম্পুর্ন রাসায়নিক মুক্ত অনলাইন কুরবানির বাজার। আপনার হাতের মুঠোয় আপনার পছন্দের ষাড়।</p>
+              <h1>১,৪৯,৯৯৯/- মাত্র!</h1>
+              <button class="btn btn-warning">এখনই কিনুন</button>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <img src="images/banner/banner-1-bull.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-5 col-lg-5">
+              <h1>নবাবী খাসি</h1>
+              <p>সম্পুর্ন রাসায়নিক মুক্ত অনলাইন কুরবানির বাজার। আপনার হাতের মুঠোয় আপনার পছন্দের খাসি।</p>
+              <h1>১৪,৯৯৯/- মাত্র!</h1>
+              <button class="btn btn-warning">এখনই কিনুন</button>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <img src="images/banner/banner-2-goat.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-5 col-lg-5">
+              <h1>সম্রাটী ভেড়া</h1>
+              <p>সম্পুর্ন রাসায়নিক মুক্ত অনলাইন কুরবানির বাজার। আপনার হাতের মুঠোয় আপনার পছন্দের ভেড়া।</p>
+              <h1>৯,৯৯৯/- মাত্র!</h1>
+              <button class="btn btn-warning">এখনই কিনুন</button>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <img src="images/banner/banner-3-sheep.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-5 col-lg-5">
+              <h1>শাহী মশলা</h1>
+              <p>সম্পুর্ন রাসায়নিক মুক্ত অনলাইন কুরবানির বাজার। আপনার হাতের মুঠোয় আপনার পছন্দের মশলা।</p>
+              <h1>৯৯৯/- মাত্র!</h1>
+              <button class="btn btn-warning">এখনই কিনুন</button>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <img src="images/banner/banner-4-masala.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- category section -->
+    <div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 border rounded-3 bg-light d-flex align-items-center justify-content-between">
+            <h1>গরু</h1>
+            <img width="100" src="images/category/category-1-bull.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 border rounded-3 bg-light d-flex align-items-center justify-content-between">
+            <h1>খাসি</h1>
+            <img width="100" src="images/category/category-2-goat.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 border rounded-3 bg-light d-flex align-items-center justify-content-between">
+            <h1>ভেড়া</h1>
+            <img width="100" src="images/category/category-3-sheep.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 border rounded-3 bg-light d-flex align-items-center justify-content-between">
+            <h1>মশলা</h1>
+            <img width="100" src="images/category/category-4-masala.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- main section -->
+  <main class="kb-bg-color pt-5 pb-3 mb-5">
+    <!-- cow bazar section -->
+    <section id="cow-bazar" class="container">
+      <h1>গরুর বাজার</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bull/bull-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">বাংলাদেশী গরু</h5>
+              <p class="card-text">বাংলাদেশী গরু। লম্বা ৭ ফুট, উচ্চতা ৫ ফুট, গায়ের রঙ লাল, ওজন ৬-৭ মন। সম্পুর্ন রাসায়নিক
+                মুক্ত।</p>
+              <h5>
+                দামঃ ১,৪৯,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bull/bull-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ইন্ডিয়ান গরু</h5>
+              <p class="card-text">ইন্ডিয়ান গরু। লম্বা ৬.৫ ফুট, উচ্চতা ৪.৫ ফুট, গায়ের রঙ লাল, ওজন ৫-৬ মন। সম্পুর্ন
+                রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ১,১৯,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bull/bull-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">নেপালী গরু</h5>
+              <p class="card-text">নেপালী গরু। লম্বা ৭ ফুট, উচ্চতা ৫.৫ ফুট, গায়ের রঙ লাল, ওজন ৬-৭ মন। সম্পুর্ন রাসায়নিক
+                মুক্ত।</p>
+              <h5>
+                দামঃ ৯৯,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="border border-dark border-3">
+    <!-- goat bazar section -->
+    <section id="goat-bazar" class="container mt-5">
+      <h1>খাসির বাজার</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/goat/goat-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">বাংলাদেশী খাসি</h5>
+              <p class="card-text">বাংলাদেশী খাসি। লম্বা ৩.৫ ফুট, উচ্চতা ২ ফুট, গায়ের রঙ লাল, ওজন ১৮-২০ কেজী। সম্পুর্ন
+                রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ১৪,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/goat/goat-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ইন্ডিয়ান খাসি</h5>
+              <p class="card-text">ইন্ডিয়ান খাসি লম্বা ৩ ফুট, উচ্চতা ২ ফুট, গায়ের রঙ সাদা ও লাল, ওজন ১৫-১৮ কেজী।
+                সম্পুর্ন রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ১১,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/goat/goat-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">নেপালী খাসি</h5>
+              <p class="card-text">নেপালী খাসি। লম্বা ৩ ফুট, উচ্চতা ১.৫ ফুট, গায়ের রঙ ধুসর, ওজন ১২-১৫ কেজী। সম্পুর্ন
+                রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ৯,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="border border-dark border-3">
+    <!-- sheep bazar section -->
+    <section id="sheep-bazar" class="container mt-5">
+      <h1>ভেড়ার বাজার</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/sheep/sheep-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">বাংলাদেশী ভেড়া</h5>
+              <p class="card-text">বাংলাদেশী ভেড়া। লম্বা ৩.৫ ফুট, উচ্চতা ২ ফুট, গায়ের রঙ ধুসর, ওজন ১৫-১৮ কেজী। সম্পুর্ন
+                রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ৯,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images//sheep/sheep-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ইন্ডিয়ান ভেড়া</h5>
+              <p class="card-text">ইন্ডিয়ান ভেড়া লম্বা ৩ ফুট, উচ্চতা ২ ফুট, গায়ের রঙ ধুসর, ওজন ১২-১৫ কেজী। সম্পুর্ন
+                রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ৮,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/sheep/sheep-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">নেপালী ভেড়া</h5>
+              <p class="card-text">নেপালী ভেড়া। লম্বা ৩ ফুট, উচ্চতা ১.৫ ফুট, গায়ের রঙ ধুসর, ওজন ১০-১২ কেজী। সম্পুর্ন
+                রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ৭,৯৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="border border-dark border-3">
+    <!-- masala bazar section -->
+    <section id="masala-bazar" class="container mt-5">
+      <h1>মশলার বাজার</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/masala/masala-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">দেশি পেয়াজ</h5>
+              <p class="card-text">দেশি পেয়াজ। খুব ঝাঝালো, বড় সাইজ, পরিস্কার-পরিচ্ছন্ন, মাংসের ঝোল ঘন করতে সাহায্য করে।
+                সম্পুর্ন রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ১০ কেজী - ৪৯৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/masala/masala-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">দেশি রশুন</h5>
+              <p class="card-text">দেশি রশুন। খুব ঝাঝালো, বড় সাইজ, পরিস্কার-পরিচ্ছন্ন, মাংসের স্পেশাল ফ্লেবার তৈরী করতে
+                সাহায্য করে। সম্পুর্ন রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ৩ কেজী - ৩৫৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/masala/masala-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">দেশী আদা</h5>
+              <p class="card-text">দেশী আদা। খুব ঝাঝালো, একদম কাচা, পরিস্কার-পরিচ্ছন্ন, মাংসের স্বাদ বাড়াতে সাহায্য করে।
+                সম্পুর্ন রাসায়নিক মুক্ত।</p>
+              <h5>
+                দামঃ ১ কেজী - ১১৯/- মাত্র!
+              </h5>
+            </div>
+            <div class="">
+              <button class="btn btn-warning m-3">এখনই কিনুন</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <section id="subscribe" class="container rounded-3 kb-bg-color py-5 d-flex justify-content-center">
+    <div class="row  col-lg-4 ">
+      <div class="text-center">
+        <h5>আপডেট পেতে সাবস্ক্রাইব করুন</h5>
+        <input class="form-control text-center" type="email" placeholder="আপনার ইমেইল এড্রেস প্রবেশ করান">
+        <button class="btn btn-warning m-3" type="submit">সাবস্ক্রাইব করুন</button>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-5 text-center">
+    <p><small><strong>&copy;কুরবানি বাজার । সুজয় । বুটস্ট্রাপ । ২০২১</strong></small></p>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
