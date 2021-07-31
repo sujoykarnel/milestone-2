@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        .quote::before {
+            content: open-quote;
+            font-size: 2em;
+        }
+
+        .quote::after {
+            content: close-quote;
+            font-size: 2em;
+        }
+        .required::after {
+            content: '*';
+        }
+
+        .head {
+            display: inline-block;
+        }
+
+        .head::before {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
+
+        .head::before {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
+
+        .head::after {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1 class="head">Welcome</h1>
+    <p class="quote">All credit goes to the boys.</p>
+    <p><span class="required">Name</span> <span>:</span></p>
+    <p><span class="required">Father's Name</span> <span>:</span></p>
+    <h5><span class="required">Email</span> <span>:</span></h5>
+    <h5><span class="required">Phone</span> <span>:</span></h5>
+    <h5><span>Present Address </span> <span>:</span></h5>
+    <h5><span class="required">Permanent Address </span> <span>:</span></h5>
+</body>
+
+</html>
